@@ -572,8 +572,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  opacity: 0 !important;
+#scrollToTop a {
+  border-radius: 100px;
 }
 /* Others*/
 .note-check a[data-value=Rubik] {
@@ -793,7 +793,9 @@ pre {
   border-radius: 100px !important;
 }
 .cid-qqU8JwCs5j {
-  background-image: url("../../../assets/images/abigail-sisson-2000x1333.jpg");
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #073b4c;
 }
 .cid-qqU8JwCs5j .mbr-text,
 .cid-qqU8JwCs5j .mbr-section-btn {
@@ -1163,12 +1165,11 @@ pre {
   }
 }
 .cid-qqU2nSbwy0 {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background: #ffffff;
 }
 .cid-qqU2nSbwy0 .image-block {
   margin: auto;
+  width: 100% !important;
 }
 .cid-qqU2nSbwy0 figcaption {
   position: relative;
@@ -1184,14 +1185,20 @@ pre {
   }
 }
 .cid-qqUuNWsPP7 {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/krista-mangulsone-2000x1176.jpg");
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-qqUuNWsPP7 H3 {
+  color: #232323;
+}
+.cid-qqUuNWsPP7 H2 {
+  color: #232323;
 }
 .cid-qqUsNLD9pX {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #073b4c;
 }
 .cid-qqUsNLD9pX h4 {
   text-align: left;
@@ -1215,9 +1222,18 @@ pre {
   padding: 0rem 2.5rem 3rem 2.5rem;
   background-color: #fff;
 }
+.cid-qqUsNLD9pX .card-title,
+.cid-qqUsNLD9pX .card-img {
+  text-align: center;
+  color: #232323;
+}
+.cid-qqUsNLD9pX P {
+  text-align: center;
+  color: #767676;
+}
 .cid-qqUwss8BQg {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-qqUwss8BQg .title {
@@ -1245,7 +1261,7 @@ pre {
 .cid-qqUD27htQh {
   padding-top: 30px;
   padding-bottom: 45px;
-  background-color: #ff3366;
+  background-color: #cc2952;
 }
 @media (max-width: 767px) {
   .cid-qqUD27htQh .content {
